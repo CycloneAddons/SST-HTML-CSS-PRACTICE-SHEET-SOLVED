@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Q21 - Gallery of Nine</title>
+<style>
+  .gallery {
+    /* Write your CSS here */
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr;
+     */
+     grid-template-columns: repeat(3, 1fr);
+    gap: 15px
+  }
+  .item {
+    background: #4f46e5;
+    color: white;
+    height: 80px;
+    display: grid;
+    place-items: center;
+  }
+</style>
+</head>
+<body>
+  <div class="gallery">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+    <div class="item">5</div>
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div class="item">9</div>
+  </div>
+</body>
+</html>

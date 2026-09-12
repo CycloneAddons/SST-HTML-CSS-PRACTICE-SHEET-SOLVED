@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Q20 - Responsive Stack</title>
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    /* Write default grid here */
+  }
+  .box {
+    background: #4f46e5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+  </div>
+</body>
+</html> 
